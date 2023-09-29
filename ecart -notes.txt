@@ -1,0 +1,24 @@
+
+
+Backend for ecart
+
+1. create a new folder in the E-cart (ecart-backend)
+2. create package.json file - npm init or npm init -y
+3. install express and some other 
+       -> npm i express cors mongoose dotenv
+       
+       express - nodejs framework and it create an application in backend.
+       cors - used to connect two different ports (frontend -4200 and backend -5000)
+       mongoose - this librery is used to connect node and mongodb
+       dotenv - This is environment variable used to store app screts and configuration.
+
+4. create a .gitingore file and .env file
+5. create index.js file
+
+6. add connection string to .env file
+7. create connection.js file for connect node and mongodb
+8. use mongoose to connect mongodb with node application 
+9. import conncection.js in index.js
+10. create model/collection to store products - model/productSchema.js and export it
+11. To define routes for clinent request - routes/router.js
+12. To create controller folder inorder to define the logic to resolve the API request
